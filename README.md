@@ -7,3 +7,5 @@ After the neural network recieves standardized data and makes predictions on the
 De-standardizing the model's output gives the probabilities of team 1 (the home team) winning the game. 
 If the home team's win probability is larger than 50%, that team is projected to win. If less than 50%, the model picks the away team. 
 The model was able to correctly pick the winning team 63.93% of the time and has an out-of-sample record of 296-167 record from 9/10/2021 to December 7, 2021. 
+
+Data source: https://data.fivethirtyeight.com/#nfl-elo
